@@ -1,0 +1,148 @@
+.red-button {
+    background-color: rgb(255, 0, 0);
+    /* Red background */
+    color: aliceblue;
+    /* Light text color */
+    height: 30px;
+    /* Button height */
+    border: none;
+    /* Optional: Removes any default border */
+    border-radius: 4px;
+    /* Optional: Adds slightly rounded corners */
+    padding: 0 12px;
+    /* Optional: Adds horizontal padding for spacing */
+    cursor: pointer;
+    /* Changes cursor to pointer on hover */
+    font-size: 14px;
+    /* Optional: Ensures readable text size */
+    font-weight: bold;
+    /* Optional: Makes text stand out */
+    text-align: center;
+    /* Ensures text is centered */
+    display: inline-block;
+    /* Ensures consistent button display */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds a subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Optional: Smooth hover effect */
+}
+
+.red-button:hover {
+    background-color: rgb(200, 0, 0);
+    /* Slightly darker red on hover */
+    transform: scale(1.05);
+    /* Slightly enlarges button */
+}
+
+.red-button:active {
+    background-color: rgb(150, 0, 0);
+    /* Darker red on click */
+    transform: scale(0.95);
+    /* Shrinks slightly to mimic a pressed effect */
+}
+
+
+
+
+
+
+
+/* ===========================save button-------------------=-------- */
+
+
+.green-button {
+    background-color: rgb(34, 139, 34);
+    /* Forest green background */
+    color: white;
+    /* White text */
+    height: 30px;
+    /* Button height */
+    border: none;
+    /* Removes default border */
+    border-radius: 4px;
+    /* Rounded corners */
+    padding: 0 12px;
+    /* Horizontal padding */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 14px;
+    /* Readable text size */
+    font-weight: bold;
+    /* Makes text stand out */
+    text-align: center;
+    /* Centers text inside the button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth hover effects */
+}
+
+.green-button:hover {
+    background-color: rgb(28, 116, 28);
+    /* Darker green on hover */
+    transform: scale(1.05);
+    /* Slightly enlarges button */
+}
+
+.green-button:active {
+    background-color: rgb(20, 80, 20);
+    /* Even darker green on click */
+    transform: scale(0.95);
+    /* Shrinks slightly to mimic a press effect */
+}
+
+.green-button:focus {
+    outline: 2px solid rgb(144, 238, 144);
+    /* Light green outline for focus */
+    outline-offset: 2px;
+}
+
+
+
+
+
+/* ===========================save button-------------------=-------- */
+
+
+.blue-button {
+    background-color: rgb(20, 55, 117);
+    /* Forest green background */
+    color: white;
+    /* White text */
+    height: 30px;
+    /* Button height */
+    border: none;
+    /* Removes default border */
+    border-radius: 4px;
+    /* Rounded corners */
+    padding: 0 12px;
+    /* Horizontal padding */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 14px;
+    /* Readable text size */
+    font-weight: bold;
+    /* Makes text stand out */
+    text-align: center;
+    /* Centers text inside the button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth hover effects */
+}
+
+.blue-button:hover {
+    background-color: rgb(28, 116, 28);
+    /* Darker green on hover */
+    transform: scale(1.05);
+    /* Slightly enlarges button */
+}
+
+.blue-button:active {
+    background-color: rgb(20, 80, 20);
+    /* Even darker green on click */
+    transform: scale(0.95);
+    /* Shrinks slightly to mimic a press effect */
+}
+
+.blue-button:focus {
+    outline: 2px solid rgb(144, 238, 144);
+    /* Light green outline for focus */
+    outline-offset: 2px;
+}
