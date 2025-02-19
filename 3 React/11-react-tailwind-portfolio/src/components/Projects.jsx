@@ -4,6 +4,12 @@ import Section from './Section'
 import {Briefcase} from 'lucide-react'
 
 export default function Projects() {
+  
+  const projectList =[
+    {title: "E-Commerce Platform",desc: "lorem gjhghru gfhuh8jhgs hgurher hg " ,
+      techUsed:['Vue.js','D3.js','Express.js','SQL'] },
+  ];
+
   return (
    <Section icon={<Briefcase/>} sectionTitle="Projects">
     <p>
